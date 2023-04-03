@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight:normal;
+
+
+    background-image: url("image/jajang-sopandi-x.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+img{
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    width: 150px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+h3{
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    color: rgb(253, 0, 0);
+    font-size: 1.2em;
+}
+
+.grandparent{
+    padding: 5px;
+    border-top: solid 5px greenyellow;
+    border-right: solid 5px rgb(0, 0, 0)  ;
+    border-left: solid  5px rgb(255, 0, 0) ;
+    border-bottom: solid  5px rgb(34, 0, 255) ;
+}
+
+
+.parent{
+    border: solid rgb(39, 39, 39) 3px ;
+}
+
+.skills{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+#hobby{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: azure;
+}
+
+ul{
+    color: rgb(253, 0, 0);
+
+    box-sizing: border-box;
+    width: 300px;
+}
