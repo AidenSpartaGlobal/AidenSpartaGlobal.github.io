@@ -9,9 +9,10 @@ body{
     font-weight:normal;
 
 
-    background-image: url("image/jajang-sopandi-x.jpg");
+    /* background-image: url("image/jajang-sopandi-x.jpg"); */
     background-repeat: no-repeat;
     background-size: auto;
+    background-color: azure;
 }
 
 img{
@@ -67,7 +68,7 @@ p{
 #hobby{
     color: rgb(0, 0, 0);
     font-size: 15px;
-    background-color: azure;
+    background-color: rgb(25, 150, 150);
 }
 
 ul{
@@ -76,3 +77,53 @@ ul{
     box-sizing: border-box;
     width: 300px;
 }
+
+.box-1 h4{
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#myform{
+    background-color: grey;
+    color: blanchedalmond;
+    padding: 50px;
+    margin: 10px 15px;
+}
+
+#myform input[type="text"]{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#myform input[type="submit"], button{
+    padding: 8px;
+    border: none;
+    background-color: darkorange;
+    color: chartreuse;
+}
+
+a{
+    text-decoration: wavy;
+    color: goldenrod;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited {
+    color: pink;
+}
+
+
+a:hover{
+    color: olivedrab;
+}
+
+
+
+
